@@ -1,14 +1,12 @@
 global variables:
 grid: 2 dimensional char array with length 3 each
-turn: boolean which is true when first player does a turn
+player: boolean which is true when first player does a turn
 
 
 
 print out the grid
 
 let the user make his turn
-
-update the grid
 
 check if the game is over
 
@@ -20,9 +18,42 @@ FOR EACH char in grid
   DO print char
   
 turn
+int a ,b
 request input in format (1..3)(a..c)
 switch input.charAt(0)
   case 1
+    a = 0;
+  case 2 
+    a = 1
+  case 3
+    a = 2
+switch input.charAt(1)
+  case1
+    b = 0
+  case2
+    b = 1
+  case3
+    b = 2
+    
+  IF player == true
+    grid[a][b] = X
+    ELSE
+      grid[a][b] = O
+      
+
+checkGameOver
+for(int i = 0; i<3; i++){
+  for(int j = 0; j<3; j++){
+    if (gird[i][j] == O && grid[i]j[] == O && grid [i][j] == O) || everything for X{
+      gameOver();
+    }
+  }
+if (grid[0][0] == X && grid[1][1]==X && grid[2][2] == X)
+  gameOver();
+if(grid[2][0] [1][1] [0][2]9
+  gameOver();
+  
+
     
 
 
